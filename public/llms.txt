@@ -1,0 +1,26 @@
+# Harsh Kumar — Data Engineering, AI/ML & Analytics Developer
+
+> 404: IDENTITY NOT FOUND — Data is signal. Pipelines are symphonies. Harsh Kumar is a Data Engineering, AI/ML & Analytics Developer specializing in cloud ETL/ELT pipelines (AWS S3, Snowflake, dbt, Apache Airflow), relational database architectures (MySQL), and natural language processing systems.
+
+## Primary Profiles & Identity
+
+- [GitHub Profile](https://github.com/Harshkr4227): Central code repository housing all pipeline DAGs, SQL analytics, and NLP repositories.
+- [LinkedIn Profile](https://linkedin.com/in/harsh-kumar-214161295): Professional trajectory, academic credentials, and career milestones.
+- [X / Twitter](https://x.com/harshkr4227): Technical insights, telemetry updates, and industry discourse.
+- [Direct Email Contact](mailto:harshkr4227@gmail.com): Direct engineering communication channel for opportunities and collaborations.
+- [Interactive Portfolio](https://harshkumar.dev): Full interactive editorial web application featuring real-time telemetry, 3D particle void, and live system architectures.
+
+## Selected Engineering Projects
+
+- [Zomato : Cloud ELT Data Pipeline](https://github.com/Harshkr4227): End-to-end cloud pipeline ingesting raw delivery data into AWS S3, loading Snowflake via COPY INTO, and orchestrating staged dbt transformations with Apache Airflow DAGs.
+- [Student Data Management System](https://github.com/Harshkr4227): 3NF normalized MySQL database backend paired with an analytical query engine computing cohort GPAs, attendance benchmarks, and academic standing via CTEs.
+- [Sentimind : Text Mining & Sentiment Engine](https://github.com/Harshkr4227): Modular NLP pipeline utilizing NLTK and spaCy for negation-aware text cleaning, lemmatization, and multi-class sentiment polarity classification.
+
+## Tech Stack & Capabilities
+
+- [Apache Airflow](https://airflow.apache.org): Orchestration of multi-stage ETL/ELT workflows, dependency management, and automated dbt execution DAGs.
+- [dbt (data build tool)](https://www.getdbt.com): Layered SQL transformation modeling across Staging, Intermediate, and Mart schemas with referential integrity tests.
+- [Snowflake Data Cloud](https://www.snowflake.com): Scalable cloud data warehousing, stage creation, and high-throughput COPY INTO ingestion.
+- [Amazon Web Services (AWS S3)](https://aws.amazon.com/s3/): Object storage lake architecture for raw semi-structured and batch payload ingestion.
+- [Python & Applied NLP](https://www.python.org): Core scripting language driving pipeline operations, spaCy tokenization, NLTK stemming, and Pandas/NumPy analytics.
+- [Relational Databases & SQL](https://www.mysql.com): Advanced relational modeling, 3NF normalization, window functions, and complex CTE query optimization in MySQL and Snowflake.
