@@ -55,11 +55,14 @@ export const metadata: Metadata = {
   creator: PROFILE_DATA.name,
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "64x64" },
       { url: "/images/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.svg", type: "image/svg+xml" }
     ],
-    shortcut: "/images/favicon.svg",
+    shortcut: "/favicon.ico",
     apple: [
+      { url: "/icon.png", sizes: "64x64", type: "image/png" },
       { url: "/images/favicon.svg", type: "image/svg+xml" }
     ]
   },
@@ -111,9 +114,12 @@ export default function RootLayout({
     >
       <head>
         <meta name="description" content={metaDescription} />
+        {/* Universal Googlebot & browser favicon resolution */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="64x64" />
         <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
         <link rel="alternate icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/images/favicon.svg" />
+        <link rel="apple-touch-icon" href="/icon.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON_LD_SCHEMA }}
