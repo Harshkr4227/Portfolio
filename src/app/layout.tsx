@@ -53,6 +53,16 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: PROFILE_DATA.name, url: PROFILE_DATA.links.github }],
   creator: PROFILE_DATA.name,
+  icons: {
+    icon: [
+      { url: "/images/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.svg", type: "image/svg+xml" }
+    ],
+    shortcut: "/images/favicon.svg",
+    apple: [
+      { url: "/images/favicon.svg", type: "image/svg+xml" }
+    ]
+  },
   openGraph: {
     title: `${PROFILE_DATA.name} — ${PROFILE_DATA.headlineTitle}`,
     description: metaDescription,
@@ -101,6 +111,9 @@ export default function RootLayout({
     >
       <head>
         <meta name="description" content={metaDescription} />
+        <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/images/favicon.svg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON_LD_SCHEMA }}

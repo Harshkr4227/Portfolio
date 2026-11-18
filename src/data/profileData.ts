@@ -256,6 +256,12 @@ export const TECH_STACK_CATEGORIES: TechStackCategory[] = [
 
 export const REPO_TREE_FILES: RepoTreeFile[] = [
   {
+    path: "public/images/favicon.svg",
+    role: "Custom geometric brand icon (HK monogram with cyan telemetry accent)",
+    snippet: `<!-- Browser Favicon -->
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />`
+  },
+  {
     path: "public/images/avatar.png",
     role: "Harsh Kumar's original studio portrait (rendered unmodified with B&W CSS layer)",
     snippet: `// Place your portrait file at:
